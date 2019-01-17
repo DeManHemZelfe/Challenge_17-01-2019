@@ -1,7 +1,9 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: red;
-
+}
+#lente {
+    background-color: pink;
 }
 
 .mobile-container {
@@ -52,3 +54,126 @@ body {
 .news {
     border-bottom: 1px solid grey;
 }
+
+.datum_naam {
+    margin-left: 5px;
+}
+
+/*BUTTON*/
+
+
+
+
+.titel_h4 {
+    margin-left: 5px;
+}
+
+.datum_naam {
+    color: grey;
+}
+
+.knop_divje {
+    margin-left:3%;
+}
+.tekst_blokje {
+    background-color:red;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.wrapper {
+    background-color:blue;
+    width: 80%;
+    margin: 0 auto;
+}
+.box_een {
+    background-color: white;
+    width: 100%;
+    height: 40%;
+    margin-bottom: 10px;
+    border: solid 2px grey;
+}
+.berichten {
+    margin-top: 2px;
+    background-color: white;
+    width: 100%;
+    height: 40%;
+    margin-bottom: 10px;
+    border: solid 2px grey;
+}
+.tekst_berichten {
+    /*transform: translateY(-10px);*/
+    margin-left: 5px;
+}
+
+
+.more {
+    display: none;
+}
+
+#mijn_eerste_knop {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#mijn_tweede_knop {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#mijn_derde_knop {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#mijn_vierde_knop {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#mijn__knop {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.h1_h1 {
+    margin-left: 40px;
+}
+.berichten {
+
+}
+
