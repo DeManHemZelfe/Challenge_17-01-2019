@@ -6,11 +6,22 @@ body {
     background-color: pink;
 }
 
+
+
 .mobile-container {
     width:100%;
-    margin: auto;
-    background-color: #555;
-    height: 248px;
+    margin: 0px;
+    padding: 0px;
+    background-color:black;
+    height: 100px;
+    color: white;
+    border-radius: 10px;
+    /**/
+    width: 95%;
+    margin: 0 auto;
+
+    background-color: black;
+    height: 100px;
     color: white;
     border-radius: 10px;
 }
@@ -84,6 +95,7 @@ body {
 .wrapper {
     width: 80%;
     margin: 0 auto;
+    margin-top: 10px;
 }
 .box_een {
     background-color: white;
@@ -160,9 +172,26 @@ body {
     margin: 4px 2px;
     cursor: pointer;
 }
-.h1_h1 {
-    margin-left: 40px;
+
+.h1_h1_box {
+    margin-top: -10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: black;
+    border-radius: 15px;
+    height: 90%;
 }
+
+
+
+.h1_h1 {
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+    color: white;
+
+}
+
 .berichten {
     margin-top: 2px;
     background-color: white;
@@ -201,6 +230,7 @@ h2 {
 }
 
 #plaats_links_een {
+    color: #333333;
     display: flex;
     justify-items: left;
     justify-content: left;
@@ -210,25 +240,30 @@ h2 {
     display: flex;
     justify-items: left;
     justify-content: left;
+    color: #333333;
 }
 #plaats_links_drie {
     display: flex;
     justify-items: left;
     justify-content: left;
+    color: #333333;
 }
 #plaats_links_vier {
     display: flex;
     justify-items: left;
     justify-content: left;
     margin-bottom: 15px;
+    color: #333333;
 }
 #plaats_links_vijf {
     display: flex;
     justify-items: left;
     justify-content: left;
+    color: #333333;
 
 }
 #plaats_links_zes {
+    color: #333333;
     display: flex;
     justify-items: left;
     justify-content: left;
@@ -252,38 +287,77 @@ h2 {
 }
 #arch_body {
     background-color: sandybrown;
+    background-color: white;
+    margin: 0px;
 }
 .arch_container {
-    background-color: red;
+    background-color: white;
     width: 100%;
+    background-color: white;
+    width: 96%;
+    margin: 0 auto;
 }
 .arch_box1 {
     display: flex;
-    background-color: lightgray;
+    background-color: white;
     width: 100%;
     height: 250px;
-    color: blue;
-    border: 1px solid green;
+    margin-left: 1px;
+    margin-right: 1px;
+    color: gray;
+
 }
 .arch_foto_box {
     display: flex;
     width: 100%;
 }
+.arch_foto_twee_box {
+    display: flex;
+    width: 100%;
+}
 .arch_picture {
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.arch_picture_twee {
     width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 .arch_box2 {
     display: flex;
-    background-color: springgreen;
+    background-color: white;
     width: 100%;
     height: 250px;
-    color: blue;
-    border: 1px solid green;
+    color: gray;
+
 }
 .h5_h5 {
     margin-top: -10px;
-    margin-bottom: -4px;
+    margin-bottom: 4px;
     padding: 0px;
+
+}
+#div_titel_h5_h5 {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    background-color: white ;
+}
+.arch_footer {
+    background-color: springgreen;
+    border: 5px solid black;
+    margin-top: -20px;
+    width: 102%;
+    margin-left: -10px;
+    /* margin-right: 31px; */
+    padding: 0;
+
+}
+.arch_footer_tekst {
+    color: springgreen;
+
+
 }
